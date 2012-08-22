@@ -1,0 +1,10 @@
+1. Install apache2 and wsgi module.
+    Using zypper(rpm) or build from source. Devel package of apache2 and apache2-worker is neccessary.
+
+2. Install pip for python.
+
+3. Using pip install xxx(name)==xxx(version) to install corresponding python lib.
+
+4. Configure wsgi.conf in apache2.       eg. corn.d/wsgi.conf
+
+5. Configure the wsgi file for project.  eg. django.wsgi
